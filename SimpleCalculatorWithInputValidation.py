@@ -16,7 +16,10 @@ elif choice==2:
     result=Num1-Num2
 elif choice==3:
     result=Num1*Num2
-else:
-    result=Num1/Num2
+elif choice==4:
+    if Num2!=0:
+        result=Num1/Num2
+    else:
+        print("Can.t divide by zero")
 
 print("The answer is:",result)
