@@ -20,6 +20,6 @@ elif choice==4:
     if Num2!=0:
         result=Num1/Num2
     else:
-        print("Can.t divide by zero")
+        print("Can't divide by zero")
 
 print("The answer is:",result)
